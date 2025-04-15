@@ -10,7 +10,7 @@ const About = () => {
       name: "Dieumerci BAHAVU",
       role: "Coordinateur",
       bio: "Coordinateur dévoué avec une passion pour le bien-être des enfants. Contact: +243 972 711 482",
-      image: "/lovable-uploads/9a14da41-1326-4493-a93f-53b6c7655d98.png",
+      image: "/lovable-uploads/6ae6fc51-0c29-425d-afc6-52158846301d.png",
       socialLinks: {
         facebook: "https://facebook.com",
         linkedin: "https://linkedin.com"
