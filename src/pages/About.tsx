@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import PageHeader from '@/components/PageHeader';
@@ -6,46 +5,24 @@ import SectionTitle from '@/components/SectionTitle';
 import TeamMemberCard from '@/components/TeamMemberCard';
 
 const About = () => {
-  // Sample data for team members
   const teamMembers = [
     {
-      name: "Jean-Pierre Kalala",
-      role: "Fondateur & Président",
-      bio: "Plus de 20 ans d'expérience dans le secteur humanitaire, passionné par l'éducation des enfants défavorisés.",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3",
-      socialLinks: {
-        facebook: "https://facebook.com",
-        twitter: "https://twitter.com",
-        linkedin: "https://linkedin.com"
-      }
-    },
-    {
-      name: "Marie Lumumba",
-      role: "Directrice des Programmes",
-      bio: "Spécialiste de l'éducation avec une vaste expérience dans la gestion de programmes pour enfants vulnérables.",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3",
+      name: "Dieumerci BAHAVU",
+      role: "Coordinateur",
+      bio: "Coordinateur dévoué avec une passion pour le bien-être des enfants. Contact: +243 972 711 482",
+      image: "/lovable-uploads/9a14da41-1326-4493-a93f-53b6c7655d98.png",
       socialLinks: {
         facebook: "https://facebook.com",
         linkedin: "https://linkedin.com"
       }
     },
     {
-      name: "Patrick Mbombo",
-      role: "Directeur Financier",
-      bio: "Expert en gestion financière des organisations non gouvernementales avec plus de 15 ans d'expérience.",
+      name: "David WAMISANGA Amos",
+      role: "Président du Conseil d'Administration",
+      bio: "Président du Conseil d'Administration avec une vision claire pour l'avenir de GOSS UNITED. Contact: +39 345 234 1077",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3",
       socialLinks: {
         linkedin: "https://linkedin.com"
-      }
-    },
-    {
-      name: "Francine Tshisekedi",
-      role: "Coordinatrice des Opérations",
-      bio: "Dévouée à la cause des enfants vulnérables et experte en coordination de projets humanitaires.",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3",
-      socialLinks: {
-        facebook: "https://facebook.com",
-        twitter: "https://twitter.com"
       }
     }
   ];
