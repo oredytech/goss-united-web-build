@@ -52,11 +52,11 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-start space-x-2">
                 <MapPin size={20} className="mt-1 flex-shrink-0" />
-                <span>123 Avenue de la Paix, Kinshasa, RDC</span>
+                <span>N° 019, Av. Maman ELISABETH, Q. Ndosho, Goma/RDC</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone size={20} className="flex-shrink-0" />
-                <span>+243 123 456 789</span>
+                <span>+243 972 711 482 | +39 345 234 1077</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail size={20} className="flex-shrink-0" />
@@ -94,3 +94,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
