@@ -7,21 +7,21 @@ import TeamMemberCard from '@/components/TeamMemberCard';
 const About = () => {
   const teamMembers = [
     {
+      name: "David WAMISANGA Amos",
+      role: "Président du Conseil d'Administration",
+      bio: "Président du Conseil d'Administration avec une vision claire pour l'avenir de GOSS UNITED. Contact: +39 345 234 1077",
+      image: "/lovable-uploads/65373e5c-1c7a-4761-9efe-ce34f8681b4c.png",
+      socialLinks: {
+        linkedin: "https://linkedin.com"
+      }
+    },
+    {
       name: "Dieumerci BAHAVU",
       role: "Coordinateur",
       bio: "Coordinateur dévoué avec une passion pour le bien-être des enfants. Contact: +243 972 711 482",
       image: "/lovable-uploads/6ae6fc51-0c29-425d-afc6-52158846301d.png",
       socialLinks: {
         facebook: "https://facebook.com",
-        linkedin: "https://linkedin.com"
-      }
-    },
-    {
-      name: "David WAMISANGA Amos",
-      role: "Président du Conseil d'Administration",
-      bio: "Président du Conseil d'Administration avec une vision claire pour l'avenir de GOSS UNITED. Contact: +39 345 234 1077",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3",
-      socialLinks: {
         linkedin: "https://linkedin.com"
       }
     }
@@ -193,7 +193,7 @@ const About = () => {
             <div className="text-center p-6 border border-gray-200 rounded-lg">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3m7 7c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">Respect</h3>
