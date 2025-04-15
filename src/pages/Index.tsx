@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import DonateButton from '@/components/DonateButton';
@@ -97,7 +96,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 z-0 opacity-30"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1540479859555-17af45c78602?ixlib=rb-4.0.3')",
+            backgroundImage: "url('/lovable-uploads/c09cb2ad-0c31-4b5c-8cf9-ec7eb2822adf.png')",
             backgroundSize: "cover",
             backgroundPosition: "center"
           }}
@@ -113,8 +112,9 @@ const Index = () => {
             <div className="flex flex-wrap gap-4">
               <DonateButton large />
               <Link to="/about">
-                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg py-6 px-8">
+                <Button variant="outline" className="border-white text-[#8E9196] hover:bg-white hover:text-primary text-lg py-6 px-8">
                   En savoir plus
+                  <ArrowRight size={16} />
                 </Button>
               </Link>
             </div>
